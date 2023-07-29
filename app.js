@@ -24,7 +24,7 @@ app.get("/",(req,res)=>{
 })
 // config
 if(process.env.NODE_ENV !=="PRODUCTION"){
-    require("dotenv").config({path:"backend/config/.env"})
+    require("dotenv").config({path:"config/.env"})
 }
 
 //import route
